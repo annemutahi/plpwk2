@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  rabbit.mq:
+    image: rabbitmq:3-management
+    container_name: checkin-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest

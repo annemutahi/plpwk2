@@ -1,0 +1,13 @@
+{
+    "name": "kiosk",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "kiosk.js",
+    "scripts": {
+        "start": "node kiosk.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "amqplib": "^0.10.4"
+    }
+}

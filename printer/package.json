@@ -1,0 +1,12 @@
+{
+    "name": "printer",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "printer.js",
+    "scripts": {
+        "start": "node printer.js"
+    },
+    "dependencies": {
+        "amqplib": "^0.10.4"
+    }
+}
